@@ -1,0 +1,23 @@
+# Capstone App - Environment Configuration
+
+# This is a sample conda environment file for this project.
+# To use with conda/miniconda:
+#   conda env create -f environment.yml
+#
+# To use with venv (standard Python virtual environment):
+#   python -m venv venv
+#   source venv/bin/activate  # On Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+
+name: capstone_app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - tqdm
+      - sqlite3  # stdlib, but included for clarity
+      - pandas   # optional, for data handling
+      - # add any other packages you use

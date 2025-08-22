@@ -1,0 +1,11 @@
+## For venv (standard Python virtual environment):
+# python -m venv venv
+# source venv/bin/activate  # On Windows: venv\Scripts\activate
+# pip install -r requirements.txt
+
+## For conda/miniconda, see environment.yml
+
+python==3.12
+tqdm
+# sqlite3 is part of the Python standard library
+# pandas  # Uncomment if you use pandas for data handling

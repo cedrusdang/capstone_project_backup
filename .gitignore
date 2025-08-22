@@ -1,0 +1,6 @@
+spider_data/
+spider_data.zip
+/data/*
+!/data/
+__pycache__/
+secret_keys*
