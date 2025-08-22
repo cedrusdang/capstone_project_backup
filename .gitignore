@@ -1,7 +1,7 @@
 spider_data/
 spider_data.zip
 /data/*
-!/data/
+!/data/README.md
 __pycache__/
 secret_keys*
 .vscode/
