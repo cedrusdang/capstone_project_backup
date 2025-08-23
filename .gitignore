@@ -5,3 +5,4 @@ spider_data.zip
 __pycache__/
 secret_keys*
 .vscode/
+/schema_data/*

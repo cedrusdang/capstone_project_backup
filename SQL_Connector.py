@@ -2,7 +2,6 @@
 This script connect with the SQL file base on the extracted paths
 Currently only work with SQLite, future plan to support other SQL databases
 return a connection object that can be used to interact with the database
-
 It also containt protocol for SQL query, the path is depend of what is the OS that are used
 '''
 import nt
@@ -45,7 +44,7 @@ class SQLite_Connector:
             print("Database connection is not established. ",
                   "\nPlease use connect() method on the object.")
             return json.dumps({"error": "Database connection is not established."})
-        
+
         cursor = self.conn.cursor()
         results = []
         try:
