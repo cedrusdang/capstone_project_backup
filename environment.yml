@@ -14,10 +14,9 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.12
-  - pip
+  - python=3.10
+  - tqdm
   - pip:
-      - tqdm
-      - sqlite3  # stdlib, but included for clarity
-      - pandas   # optional, for data handling
-      - # add any other packages you use
+      - python-dotenv
+      - openai
+      - -r requirements.txt
